@@ -1,7 +1,10 @@
-# Getting Started with Create React App
+# SmugMug Chat App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+This app is specifically built to work with Personal Photo Assistant Spring AI app.  
+This app is built for demo purposes and not intended to run in production.
+## Setup
+This app requires react bootstrap. Typically, install using npm.
+### `npm install bootstrap react-bootstrap`
 ## Available Scripts
 
 In the project directory, you can run:
