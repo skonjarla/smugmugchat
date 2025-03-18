@@ -115,3 +115,6 @@ img {
   border: 1px solid #ddd;
 }
 
+.css-fix {
+  white-space: pre-wrap; /* or pre-line */
+}

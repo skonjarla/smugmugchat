@@ -93,10 +93,10 @@ function App() {
     };
 
     return (
-        <Container className="my-4">
-            <Card>
+        <Container className="my-xl-5">
+            <Card style={{ height: '55rem' }}>
                 <Card.Header className="text-center">
-                    <strong>Konjarla Photo Chat</strong>
+                    <strong>Photo Assistant</strong>
                 </Card.Header>
                 <Card.Body style={{height: "700px", overflowY: "auto"}}>
                     {messages.map((msg, index) => (
@@ -107,7 +107,7 @@ function App() {
                             }`}
                         >
                             {msg.type === "text" ? (
-                                <pre className="mb-1">{msg.content}</pre>
+                                <pre className="mb-1" >{msg.content}</pre>
                             ) : msg.type === "image" && Array.isArray(msg.content) ? (
                                 <div className="image-container d-flex flex-wrap gap-2">
                                     {msg.content.map((image, imgIndex) => (
